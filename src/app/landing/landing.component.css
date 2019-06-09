@@ -1,0 +1,67 @@
+*{
+    background-image: url(/img/gt.jpg);
+}
+p{
+    color:whitesmoke;
+}
+h1,h2{
+    color:black;
+    font-style: italic;
+}
+
+#land{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url();
+    font-size: 20px;
+    
+}
+
+#head{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Chettan', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+#contacts{
+    padding-top: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Chettan', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Varela Round', sans-serif;
+}
+#contacts>a{
+    padding: 5px;
+}
+#bod{
+    padding-top: 50px;
+    background: rgb(42, 48, 38);
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding-left: 50px;
+}
+#but0{
+    color:black;
+    border-radius: 30px;
+    background: white;
+    margin-left: 450px
+    
+}
+
+#but0:hover{
+    color: white;
+    background: black;
+}
+.footer{
+    background-color: rgb(112, 167, 29);
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 65px;
+    font-style: italic;
+    font-size: large;
+
+}
