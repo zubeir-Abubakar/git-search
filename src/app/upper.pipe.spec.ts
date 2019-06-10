@@ -1,7 +1,7 @@
 import { UpperPipe } from './upper.pipe';
 
 describe('UpperPipe', () => {
-  it('creat e an instance', () => {
+  it('create an instance', () => {
     const pipe = new UpperPipe();
     expect(pipe).toBeTruthy();
   });
