@@ -6,7 +6,7 @@
     <div class="col-md-7">
       <form (ngSubmit)='findprofile()' class="search-form">
         <div class="form-group">
-          <input type="text" class="form- " placeholder="Search user ..." [(ngModel)]="username"
+          <input type="text" class="form-control" placeholder="Search user ..." [(ngModel)]="username"
             name="username">
             <button id="but" class="btn btn-success ok " type="submit">Search</button>
         </div>
@@ -17,7 +17,7 @@
         <div *ngIf="profile">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h1>{{profile.login }}</h1>
+              <h1>{{profile.logi n }}</h1>
             </div>
             <div class="panel-body">
               <div class="row">
