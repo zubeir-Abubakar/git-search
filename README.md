@@ -15,9 +15,9 @@ This is a website where a user can search for their github repository and also s
 ## Behaviour driven Development (BDD)
 |#User inputs   |  #Example outputs |         
 |---------------|-------------------|
-|When it receives:               | It should return:                  |
-| User enters username              | The user profile is displayed                 |
-| User enters repository name              | The repository is displayed                  |
+|When it receives:               | It returns:                  |
+| User enters username              | The avatar profile is displayed  and respositories           |
+| User clicks on repository name              | The repository is shown with information                  |
 
 ## Known Bugs
 There are no known bugs as at now but in case of any you may find please contact me.
